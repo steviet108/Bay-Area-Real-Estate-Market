@@ -33,16 +33,19 @@ This analysis was done with Jupyter Lab. To interact with the functions, first i
 
 ``` pip install python 3.7 ```
 
-``` conda install hvplot ```
+``` conda install -c pyviz hvplot geoviews ```
 
-``` conda install geoviews ```
+It is a good idea to install hvplot and geoviews into a virtual environment. To do this first make sure you are not already in a virtual envirment with 
+
+``` conda deactivate ```  then  ``` conda update conda ``` then  ``` conda update anaconda ``` then you will want to create a new virtual environment by 
+``` conda create -n dev python=3.7 anaconda ``` then. ``` conda activate dev ``` after you have created a new virtual environment, go ahead and install hvplot and geoviews with a ``` conda install -c pyviz hvplot geoviews ```
 
 ---
 ## Usage
 
 The file of interests is labeled    ``` san_francisco_housing.ipynb ```
 
-This analysis is of the san francisco real estate market. I have created a dataframe and then manipulated the dataframe in an attempt to understand trends. I have included several plots to further shine light into the potential for investment into this market.
+This analysis is of the san francisco real estate market. I have created a dataframe and then manipulated the dataframe in an attempt to understand trends. I have included several plots to further shine light into the potential for investment into this market. 
 
 ---
 ## Contributors
