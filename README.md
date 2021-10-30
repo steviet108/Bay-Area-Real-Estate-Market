@@ -21,6 +21,7 @@ This analysis uses Python 3.7 with the following packages:
 
 ``` hvplot ```
 
+``` geoviews ```
 ---
 
 
@@ -29,16 +30,12 @@ This analysis uses Python 3.7 with the following packages:
 
 This analysis was done with Jupyter Lab. To interact with the functions, first install the following:
 
-``` pip jupyter lab ```
+``` python 3.7 ```
 
-``` pip install python 3.7 ```
-
-``` conda install -c pyviz hvplot geoviews ```
-
-It is a good idea to install hvplot and geoviews into a virtual environment. To do this first make sure you are not already in a virtual envirment with 
+It is a good idea to install hvplot and geoviews into a virtual environment. To do this first make sure you are not already in a virtual environment with 
 
 ``` conda deactivate ```  then  ``` conda update conda ``` then  ``` conda update anaconda ``` then you will want to create a new virtual environment by 
-``` conda create -n dev python=3.7 anaconda ``` then. ``` conda activate dev ``` after you have created a new virtual environment, go ahead and install hvplot and geoviews with a ``` conda install -c pyviz hvplot geoviews ```
+``` conda create -n dev python=3.7 anaconda ``` then  ``` conda activate dev ``` after you have created a new virtual environment, go ahead and install hvplot and geoviews with a ``` conda install -c pyviz hvplot geoviews ```
 
 ---
 ## Usage
